@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+#main-movie-results{
+    margin-top: 5rem;
+}
+
+.card{
+    height:32rem;
+}
+
+.card-img-top{
+    height:50%;
+}
+
+.card-title{
+    
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.2rem;
+        max-height: 2.5rem;
+        min-height: 2rem;
+}
+.card-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 2rem;
+    max-height: 4rem;
+    
+
+}
+
+#yearInput{
+    display: none;
+}
+
+.cust-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem !important;
+}
+
+
+#jquery-loader.blue-with-image-2{
+    border:none;
+    padding-top:35px;
+    background-color: transparent;
+    text-align: center;
+    background-image: url(../img/ajax-loader.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+ 
+}
