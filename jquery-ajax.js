@@ -43,7 +43,7 @@ let getDataByMovieName = (input) => {
 
         type: 'GET',                 // request type GET, POST, PUT
         dataType: 'json',           // requesting datatype
-        url: `http://www.omdbapi.com/?s=${input}&apikey=9d377467`,     // URL for getting data
+        url: `https://www.omdbapi.com/?s=${input}&apikey=9d377467`,     // URL for getting data
 
         success: (resp) => { // in case of success response
 
@@ -117,7 +117,7 @@ let getDataByImdbID = (input) => {
 
         type: 'GET',                 // request type GET, POST, PUT
         dataType: 'json',           // requesting datatype
-        url: `http://www.omdbapi.com/?i=${input}&apikey=9d377467`,     // URL of getting data
+        url: `https://www.omdbapi.com/?i=${input}&apikey=9d377467`,     // URL of getting data
 
         success: (resp) => { // in case of success response
 
@@ -189,7 +189,7 @@ let getDataByMovieYear = (movName, movyear) => {
 
         type: 'GET',                 // request type GET, POST, PUT
         dataType: 'json',           // requesting datatype
-        url: `http://www.omdbapi.com/?t=${movName}&y=${movyear}&apikey=9d377467`,     // URL of getting data
+        url: `https://www.omdbapi.com/?t=${movName}&y=${movyear}&apikey=9d377467`,     // URL of getting data
 
         success: (resp) => { // in case of success response
 
